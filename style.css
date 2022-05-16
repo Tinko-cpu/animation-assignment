@@ -1,0 +1,38 @@
+.circle{
+    background-color: greenyellow;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    animation-name: bounces;
+    animation-duration: 5s;
+    animation-iteration-count: 5;
+}
+
+
+
+p{
+    border-radius: 50%;
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    /* animation-name: bounces;
+    animation-duration: 5s;
+    animation-iteration-count: 5; */
+
+
+}
+
+@keyframes bounces {
+    0%{
+        transform: translateX(-100deg);
+    }
+
+    80%{
+        transform: translateX(10deg);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
